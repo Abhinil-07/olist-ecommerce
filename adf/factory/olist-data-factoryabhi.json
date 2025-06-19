@@ -1,0 +1,9 @@
+{
+	"name": "olist-data-factoryabhi",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "0edfcd53-c029-4cb1-8aff-c22fb2aa7fa5",
+		"tenantId": "b2f57371-782c-4a40-84df-9f93d03cdccd"
+	}
+}

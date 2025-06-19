@@ -1,0 +1,25 @@
+{
+	"name": "ds_sqltodl",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_sqltodl",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "olist_order_payments_dataset.csv",
+				"folderPath": "bronze",
+				"fileSystem": "olist-data"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
